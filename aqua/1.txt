@@ -1,7 +1,9 @@
+approach-
 checked the files by ls
 used cat to get password 
 
-sol 
+
+sol-
 ls
 readme
 bandit0@bandit:~$ cat readme

@@ -1,0 +1,35 @@
+ approach-
+ checked the root (ls)
+ tried to open with cat but was unable to do it cause "-" is not treted as a file name 
+ found this command to open the file "cat ./-"
+
+ sol-
+ bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cd home
+-bash: cd: home: No such file or directory
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat -
+
+
+^C          
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ file -.txt
+file: invalid option -- '.'
+file: invalid option -- 't'
+file: invalid option -- 'x'
+file: invalid option -- 't'
+Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] [--exclude-quiet]
+            <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+bandit1@bandit:~$ file -
+^C
+bandit1@bandit:~$ cat -
+^C
+bandit1@bandit:~$ cat ./-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
