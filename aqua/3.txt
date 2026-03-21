@@ -1,0 +1,24 @@
+approach-
+used ls
+used cat ./ to open but was space so dindt works used "file name " still didnt work used cat -- "" so it tells that after this there be no mor option 
+
+sol-
+bandit2@bandit:~$ ls
+--spaces in this filename--
+bandit2@bandit:~$ cat ./--spaces in this filename--
+cat: ./--spaces: No such file or directory
+cat: in: No such file or directory
+cat: this: No such file or directory
+cat: filename--: No such file or directory
+bandit2@bandit:~$ cat ./--spaces in this filename--
+cat: ./--spaces: No such file or directory
+cat: in: No such file or directory
+cat: this: No such file or directory
+cat: filename--: No such file or directory
+bandit2@bandit:~$ cat "--spaces in this filename--"
+cat: unrecognized option '--spaces in this filename--'
+Try 'cat --help' for more information.
+bandit2@bandit:~$ cat ./--spaces\in\this\filename--
+cat: ./--spacesinthisfilename--: No such file or directory
+bandit2@bandit:~$ cat -- "--spaces in this filename--"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
