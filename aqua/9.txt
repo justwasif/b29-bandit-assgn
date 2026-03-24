@@ -1,0 +1,7 @@
+approch-
+did uniq but it only does remove consituive duplicate so had to to add -u 
+
+
+sol-
+bandit8@bandit:~$ sort data.txt |uniq -u
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
