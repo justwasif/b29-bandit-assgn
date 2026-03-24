@@ -1,0 +1,277 @@
+approch-
+tried sort and grep but didnt work 
+since password was human readble string tried string and found '=' with password 
+
+sol-
+bandit9@bandit:~$ strings data.txt
+Dm|H
+d:Bj
+pgM,
+g%q&N
+}}Jae
+:AJsC
+E!ML
+~>#~
++PIqZ
+Zf{,
+========== the
+tWIN
+W9`5
+UnTZ
+[O9xK
+6dG"I>
+WJC<
+UW'$
+6cb6:
+@;IT
+(p.[1
+Om5O
+	72eW
+Y8)s
+Y2V:
+YF_|
+&g2*7
+	kI`
+"Qrx
+V`$^
+Qj,S@h7
+95<M
+/b:n
+GP@~
+I%3gA
+caK3
+uN1>4
+Rxvk
+x+#)?W
+~:%e
++5,P_a	
+|@[h
+6hsq
+2b.|
+GR,>~
+`a]_
+062D
+<M"B
+9=H`
+8%:?}>
+>#wHF
+$3YT
+22	N
+"pDR
+O8\z
+#v\j|C
+]lc^
+o3J6
+	[/k
+[!#=Z
+\z\X
+}>7;q
+*6cOb
+|P<Lcw2J
+DE*C
+x)t06`
+p&`3
+}3Po
+YuM!ZlPG
+..[|]s
+ /oa
+========== password
+xw~{
+^E[5
+It~	
+9UY/+
+c\DV
+;x<5
+%s'%
+H&?f
+/TY5\
+59a&
+xWf=
+0*\3o
+-EdUA
+-Z^s
+mnn[
+]!Y'
+q"eo
+q]L":J
+f\Z'========== is
+}b$9
+Q^1"
+1k3e
+{0*j<
+X]$<
+hXO7,
+AE:i3
+b? V
+e=i{\#
+"%&l
+_ ,B
+"`N#
+]\Ze
+_gwU
+s~)B2
+pE&S
+:?~J
+Uekr
+b_,0](8
+a6bZp
+>Z<#
+HL3"
+hAtN
+5Y3v
+964\
+v`:x
+dhLO&
+UzBf
+asB)
+{EW?
+)e16
+T0yu
+cvm&
+#EzO
+jd78.
+b:dY
+``Zb~q
+b"3K7
+%w\qa
+RMM.
+8+hLO
+.0)b
+0z@B^|W
+;0a\$>
+wknZ"R
+-mjx4
+/1=s
+6j+9
+DN;7F
+HRQ!(
+ 5m\
+vxkhw
+q!SD\
+VW*E
+z9EW
+BM^R
+{~[xJ
+q	_-
+vOs*{i
+aDX_`
+R]e_
+r\zA
+7f2L
+!K"S!
+{)aq0X?&
+w$jEs
+uchz
+4$PA
+jj}s
+#LLz
+-,[E
+nS=F
+fAhy
+)`!M_
+~?Qh]
+:rlC
+9i!J
+)]V%
+%q3m
+U-GV
+"#V[
+`&!_wu 
+rK(S
+bxzW
+ggFg
+dF8Gj
+?)TvK
+L YFb
+	 e#
+EC+^(K
+?]	n#z	A
+\aP~
+e<T	|
+!*,i
+n@8g
+&o@nx
+||Rl3,)s
+K	!3c
+*X`+3
+{CTGX
+1+]L
+J}1cC
+6'wh
+kaQ_
+M=Sl
+=LGT
+^Bi^
+\Ll2y
+y_.NQ
+6]WBS-
+xj?<
++CAZcIV
+!Df~_J
+y"R'
+&F|!
+[Kg/9[O.
+ATC3
+5gCI
+0+(lzu
+P4!;K
+R}x,
+/IDe
+lsT.
+V}NL
+#y-e
+y =1
+/+X[
+ O?e
+========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+y'V's
+4sV39
+^s""
+zm[x
+;G<57
+e~s4
+Dt[F4
+-PYP
+-+W;dS
+SVo,x*
+{/iL
+YNdA
+mYc\"
+xk,#
+Xq]D
+lG&H
+'Ou$
+8:?X
+|dqA:YA:
+v sWuV~4
+'+Y=+
+H1]7[
+?Q+Z0o
+)7 tf.
+(%X:
+bk0S
+^E%g
+CgAg
+yLdT
+/I`>
+S( p
+BU;_m,
+45qY
+XR/i
+[;{.
+L#in
+P5*5
+/HId
+4JU){
+>BCk
+4a3M
+gFh)
+['MN
+(&\c)
+PO2"Td
+Il5:
+5bOQ
+b>!T
+A6nOT
+ICJ9
++w(Y
