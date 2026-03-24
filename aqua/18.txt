@@ -1,0 +1,21 @@
+approch-
+used diff to find out the change 
+
+sol-
+bandit17@bandit:~$ ls
+passwords.new  passwords.old
+bandit17@bandit:~$ cat password.new
+cat: password.new: No such file or directory
+bandit17@bandit:~$ cat password.old
+cat: password.old: No such file or directory
+bandit17@bandit:~$ diff -normal password.new password.old
+diff: invalid option -- 'o'
+diff: Try 'diff --help' for more information.
+bandit17@bandit:~$ diff password.new password.old
+diff: password.new: No such file or directory
+diff: password.old: No such file or directory
+bandit17@bandit:~$ diff passwords.new passwords.old
+42c42
+< x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+---
+> pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
