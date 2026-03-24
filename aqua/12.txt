@@ -1,0 +1,7 @@
+approach-
+modified chracter with tr (revsered it)
+modified whole file 
+
+sol-
+bandit11@bandit:~$ cat data.txt |tr 'a-zA-Z' 'n-za-mN-ZA-M'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
