@@ -1,0 +1,13 @@
+approach-
+so i can basicall user someone else identity
+like that is not id breach this exercise allowing me to use someone else id 
+sol-
+bandit19@bandit:~$ ./bandit-20-do
+-bash: ./bandit-20-do: No such file or directory
+bandit19@bandit:~$ ./bandit20-do
+Run a command as another user.
+  Example: ./bandit20-do whoami
+bandit19@bandit:~$ ./bandit20-do u
+env: ‘u’: Permission denied
+bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
