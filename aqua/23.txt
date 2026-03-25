@@ -1,0 +1,38 @@
+approach-
+got into dir
+checked and open 23
+added all teh scripts
+opened the file
+
+sol-
+bandit22@bandit:~$ cd /etc/cron.d
+bandit22@bandit:/etc/cron.d$ ls
+behemoth4_cleanup  cronjob_bandit23  leviathan5_cleanup    sysstat
+clean_tmp          cronjob_bandit24  manpage3_resetpw_job
+cronjob_bandit22   e2scrub_all       otw-tmp-dir
+bandit22@bandit:/etc/cron.d$ cat cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+bandit22@bandit:/etc/cron.d$ cd /usr/bin/cronjob_bandit23.sh 
+-bash: cd: /usr/bin/cronjob_bandit23.sh: Not a directory
+bandit22@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit23.sh 
+#!/bin/bash
+
+myname=$(whoami)
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+
+echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
+
+cat /etc/bandit_pass/$myname > /tmp/$mytarget
+bandit22@bandit:/etc/cron.d$ cat /tmp/$mytarget
+cat: /tmp/: Permission denied
+bandit22@bandit:/etc/cron.d$ myname=bandit23
+bandit22@bandit:/etc/cron.d$ mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+bandit22@bandit:/etc/cron.d$ exho mytarget
+Command 'exho' not found, did you mean:
+  command 'echo' from deb coreutils (9.4-3ubuntu6.1)
+Try: apt install <deb name>
+bandit22@bandit:/etc/cron.d$ echo mytarget
+mytarget
+bandit22@bandit:/etc/cron.d$ cat /tmp/$mytarget
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
