@@ -1,0 +1,35 @@
+approach-
+went into dirchecked and opened all the files 
+in bandit 22 i got the dir and openend it and got the password
+sol-
+bandit21@bandit:~$ cat /etc/cron.d/
+cat: /etc/cron.d/: Is a directory
+bandit21@bandit:~$ 
+bandit21@bandit:~$ ls
+bandit21@bandit:~$ ls
+bandit21@bandit:~$ man 5 crontab
+bandit21@bandit:~$ cd /etc/cron.d/
+bandit21@bandit:/etc/cron.d$ ls
+behemoth4_cleanup  cronjob_bandit23  leviathan5_cleanup    sysstat
+clean_tmp          cronjob_bandit24  manpage3_resetpw_job
+cronjob_bandit22   e2scrub_all       otw-tmp-dir
+bandit21@bandit:/etc/cron.d$ cat cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+bandit21@bandit:/etc/cron.d$ cat cronjob_bandit24
+@reboot bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+* * * * * bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+bandit21@bandit:/etc/cron.d$ cd /usr/bin/cronjob_bandit24.sh
+-bash: cd: /usr/bin/cronjob_bandit24.sh: Not a directory
+bandit21@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit24.sh
+cat: /usr/bin/cronjob_bandit24.sh: Permission denied
+bandit21@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit23.sh
+cat: /usr/bin/cronjob_bandit23.sh: Permission denied
+bandit21@bandit:/etc/cron.d$ ls -l /usr/bin/cronjob_bandit24.sh
+-rwxr-x--- 1 bandit24 bandit23 384 Oct 14 09:26 /usr/bin/cronjob_bandit24.sh
+bandit21@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+bandit21@bandit:/etc/cron.d$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
