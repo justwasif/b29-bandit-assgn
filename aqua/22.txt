@@ -1,5 +1,5 @@
 approach-
-went into dirchecked and opened all the files 
+went into dir checked and opened all the files 
 in bandit 22 i got the dir and openend it and got the password
 sol-
 bandit21@bandit:~$ cat /etc/cron.d/
