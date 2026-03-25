@@ -1,0 +1,10 @@
+approch-
+got the password (bandit_pass)
+opened new terminal and ran server like nodemon
+then connected it 
+
+sol-
+bandit20@bandit:~$ ./suconnect 6969
+Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password matches, sending next password
+bandit20@bandit:~$ EeoULMCra2q0dSkYj561DX7s1CpBuOBt
