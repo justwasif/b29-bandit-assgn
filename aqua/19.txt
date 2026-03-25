@@ -1,0 +1,19 @@
+approach-
+what is happinging is i am getting logged in and then instant logged out so 
+so i just have to open readme before i get logged out 
+
+sol-
+[just_wasif@nixos:~]$ ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+backend: gibson-1
+bandit18@bandit.labs.overthewire.org's password: 
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
